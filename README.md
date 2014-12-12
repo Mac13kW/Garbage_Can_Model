@@ -20,6 +20,7 @@ distribution, problems-to-choices access matrix, choices-to-decision makers acce
 
 The output has 81 rows, one for each combination of parameters and 18 columns for results,
 which are (per number of column)
+
 1) net energy load option
 
 2) energy distribution option
