@@ -13,4 +13,28 @@ You can then use the Python model I created to recreate the original results and
 with the assumptions. Wherever possible I tried to preserve the original names of variables,
 vectors and matrices.
 
-You will need numpy, random and xlwt
+You will need numpy, random and xlwt to run the model. At the end you will receive a summary
+Excel file (remember to edit the destination for the file). The file contains the 
+results of the simulation for each of the combination of parameters (net energy load, energy
+distribution, problems-to-choices access matrix, choices-to-decision makers access matrix).
+
+The output has 81 rows, one for each combination of parameters and 18 columns for results,
+which are (per number of column)
+1. net energy load option
+2. energy distribution option
+3. problems-to-choices access matrix
+4. choices-to-decision makers access matrix
+5. mean # of resolutions
+6. mean # of oversights
+7. mean # of flights
+8. mean # of quickies (my addition)
+9. mean # of unresolved
+10. mean # of problems shifting
+11. mean # of active problems
+12. mean of problem latency
+13. mean # of active decision makers
+14. mean # of shifts for decision makers
+15. mean energy spent
+16. mean excess energy
+17. mean # of unresolved choices
+18. mean # of active choices
