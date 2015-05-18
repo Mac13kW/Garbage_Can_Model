@@ -22,37 +22,24 @@ The output has 81 rows, one for each combination of parameters and 18 columns fo
 which are (per number of column)
 
 1) net energy load option
-
 2) energy distribution option
-
 3) problems-to-choices access matrix
-
 4) choices-to-decision makers access matrix
-
 5) mean # of resolutions
-
 6) mean # of oversights
-
 7) mean # of flights
-
 8) mean # of quickies (my addition)
-
 9) mean # of unresolved
-
 10) mean # of problems shifting
-
 11) mean # of active problems
-
 12) mean of problem latency
-
 13) mean # of active decision makers
-
 14) mean # of shifts for decision makers
-
 15) mean energy spent
-
 16) mean excess energy
-
 17) mean # of unresolved choices
-
 18) mean # of active choices
+
+Installation
+--------------------------------
+This code has been tested using Python 2.7 through the Anaconda Python distribution
