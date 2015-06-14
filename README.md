@@ -62,6 +62,11 @@ Installation
 --------------------------------
 This code has been tested using Python 2.7 through the Anaconda Python distribution
 
+Required modules:
+- random
+- numpy
+- xlwt
+
 
 Reference
 --------------------------------
